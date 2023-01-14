@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Stone, paper & scissor - The game</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">STONE, PAPER, SCISSOR</h1>
+    </header>
+    <main class="main">
+      <section>
+        <button
+          name="object-button"
+          id="stone-button"
+          value="stone"
+          class="button-abled"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/4405/4405457.png"
+            alt="Stone image"
+            class="image-button"
+          />
+        </button>
+        <button
+          name="object-button"
+          id="paper-button"
+          value="paper"
+          class="button-abled"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2541/2541988.png"
+            alt="Paper image"
+            class="image-button"
+          />
+        </button>
+        <button
+          name="object-button"
+          id="scissor-button"
+          value="scissor"
+          class="button-abled"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2769/2769646.png"
+            alt="Scissor image"
+            class="image-button"
+          />
+        </button>
+        <p class="paragraph-instruction" id="paragraph-instruction">
+          Choose an object to play with.
+        </p>
+        <p class="count-info" id="count-info"></p>
+        <button class="play-again-button" id="play-again-button">
+          Play again
+        </button>
+        <h1 id="user-info-choice"></h1>
+        <h1 id="pc-info-choice"></h1>
+        <h1 id="result-info"></h1>
+      </section>
+    </main>
+    <script src="/script.js"></script>
+  </body>
+</html>
